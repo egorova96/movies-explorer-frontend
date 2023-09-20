@@ -1,0 +1,178 @@
+.about {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 110px 0 100px;
+  max-width: 1140px;
+  }
+
+  .about__title {
+    width: 100%;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    letter-spacing: -0.88px;
+    margin: 0;
+    padding: 0 0 23px 0;
+  }
+  
+  .about__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 66px 0 0 0;
+  }
+  
+  .about__information {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+  }
+  
+  .about__name {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 58px;
+    letter-spacing: -2px;
+  }
+  
+  .about__work {
+    margin: 0;
+    padding: 18px 0 0 0;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  
+  .about__my-life {
+    margin: 0;
+    padding: 26px 0 0 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  
+  .about__github-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: opacity .5s linear;
+    margin: 0;
+    padding: 99px 0 0 0;
+  }
+  
+  .about__github-link:hover {
+    opacity: .5;
+    cursor: pointer;
+  }
+  
+  .about__avatar {
+    width: 270px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .about {
+      max-width: 668px;
+      padding: 90px 0 91px;
+    }
+  
+    .about__information {
+      width: 364px;
+    }
+  
+    .about__name {
+      line-height: 40px;
+      font-size: 40px;
+      letter-spacing: -1.6px;
+    }
+  
+    .about__work {
+      font-size: 12px;
+      line-height: 18px;
+      padding-top: 16px;
+    }
+  
+    .about__description {
+      font-size: 12px;
+      line-height: 18px;
+      padding-top: 20px;
+    }
+  
+    .about__github-link {
+      padding-top: 87px;
+    }
+  
+    .about__avatar {
+      width: 255px;
+      height: 307px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .about {
+      max-width: 292px;
+      padding: 70px 0;
+    }
+  
+    .about__title {
+      font-size: 18px;
+      letter-spacing: -0.72px;
+      padding-bottom: 27px;
+    }
+  
+    .about__container {
+      padding-top: 60px;
+      flex-direction: column-reverse;
+    }
+  
+    .about__information {
+      width: 292px;
+      padding-top: 39px;
+    }
+  
+    .about__name {
+      font-size: 30px;
+      line-height: normal;
+      letter-spacing: -1.2px;
+    }
+  
+    .about__work {
+      padding-top: 19px;
+      font-size: 11px;
+      line-height: 16px;
+    }
+  
+    .about__my-life {
+      font-size: 11px;
+      line-height: 16px;
+      padding-top: 20px;
+    }
+  
+    .about__github-link {
+      padding-top: 40px;
+    }
+  
+    .about__avatar {
+      display: block;
+      width: 292px;
+      border-radius: 12px;
+    }
+  }
