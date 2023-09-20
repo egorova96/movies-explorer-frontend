@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./NavTab.css";
 
-function NavAuth() {
+function NavTab() {
   return (
     <nav className="navtab">
       <ul className="navtab__text-list">
@@ -16,4 +16,4 @@ function NavAuth() {
   );
 };
 
-export default NavAuth;
+export default NavTab;
