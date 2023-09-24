@@ -49,10 +49,14 @@
   .film-cards__list {
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
   }
 
   .film-cards {
     max-width: 980px;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
   }
 }
 

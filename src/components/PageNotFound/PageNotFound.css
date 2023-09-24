@@ -1,4 +1,4 @@
-.notfound-page {
+.page-not-found {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +7,7 @@
   width: 100vh;
 }
 
-.notfound-page__title {
+.page-not-found__title {
   text-align: center;
   margin: 0;
   padding-top: 246px;
@@ -17,7 +17,7 @@
   font-style: normal;
 }
 
-.notfound-page__text {
+.page-not-found__text {
   text-align: center;
   margin: 0;
   padding: 5px 0 184px;
@@ -27,48 +27,50 @@
   line-height: normal;
 }
 
-.notfound-page__button {
-  text-align: center;
-  padding: 0 0 60px 0;
-  background-color: #202020;
-  width: 42px;
-  transition: opacity .6s linear;
-  color: #4285F4;
+.page-not-found__button {
   font-size: 14px;
-  font-weight: 400;
-  line-height: normal;
   font-style: normal;
+  font-weight: 400;
+  padding: 0 0 60px 0;
+  width: 42px;
+  color: #4285F4;
+  text-align: center;
+  line-height: normal;
   border: none;
+  margin: auto;
+  background-color: #202020;
+  transition: opacity .7s linear;
 }
 
-.notfound-page__button:hover {
+
+.page-not-found__button:hover {
   opacity: .6;
   cursor: pointer;
 }
 
-@media screen and (max-width: 900px) {
-  .notfound-page__title {
-    padding-top: 410px;
+@media screen and (max-width: 800px) {
+  .page-not-found__title {
+    padding-top: 407px;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .notfound-page {
+@media screen and (max-width: 480px) {
+  .page-not-found-page {
     width: 100%;
   }
 
-  .notfound-page__title {
+  .page-not-found__title {
     padding-top: 330px;
     font-size: 80px;
   }
 
-  .notfound-page__text {
+  .page-not-found__text {
     font-size: 12px;
-    padding-bottom: 285px;
+    padding-bottom: 284px;
     padding-top: 10px;
   }
 
-  .notfound-page__button {
+  .page-not-found__button {
     font-size: 12px;
     padding-bottom: 30px;
   }

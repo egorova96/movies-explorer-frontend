@@ -7,9 +7,9 @@ import Portfolio from "../Portfolio/Portfolio";
 function Main() {
   return (
     <>
-      <Promo />
-      <AboutProject />
-      <Techs />
+<Promo />
+<AboutProject />
+<Techs />
       <AboutMe />
       <Portfolio />
     </>

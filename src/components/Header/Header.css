@@ -29,14 +29,14 @@
   
   
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 800px) {
     .header {
       padding: 17px 30px;
     }
   
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 480px) {
     .header {
       padding: 18px 15px;
     }

@@ -1,9 +1,9 @@
 .page {
+    background: #202020;
     font-family: "Inter", "Arial", "Helvetica", sans-serif;
     max-width: 1280px;
     margin: 0 auto;
     padding: 0;
-    background: #202020;
     width: 100%;
     color: #fff;
     -webkit-font-smoothing: antialiased;
@@ -14,13 +14,13 @@
     text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .page {
     max-width: 768px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .page {
     max-width: 320px;
   }

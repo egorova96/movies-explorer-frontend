@@ -33,6 +33,18 @@
   color: #000;
   border: 1px solid #3DDC84;
 }
+/*
+@media screen and (max-width: 800px) {
+  .navtab__text-list-link_green {
+    display: none;
+  }
+
+  .navtab__text-list-link {
+    display: none;
+  }
+
+}*/
+
 
 @media screen and (max-width: 480px) {
   .navtab__text-list {

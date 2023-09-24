@@ -8,21 +8,21 @@ function Portfolio() {
       <ul className="portfolio__list">
         <li className="portfolio__list-item">
             <a className="portfolio__link" 
-            href="https://github.com/egorova96/how-to-learn" rel="noreferrer">
+            href="https://github.com/egorova96/how-to-learn" rel="noreferrer" target="_blank">
               Статичный сайт
               <img className="portfolio__image" src={toProjectImg} alt="Ссылка на проект" />
             </a>
         </li>
         <li className="portfolio__list-item">
             <a className="portfolio__link" 
-            href="https://github.com/egorova96/russian-travel" rel="noreferrer">
+            href="https://github.com/egorova96/russian-travel" rel="noreferrer" target="_blank">
               Адаптивный сайт
               <img className="portfolio__image" src={toProjectImg} alt="Ссылка на проект" />
             </a>
         </li>
         <li className="portfolio__list-item">
             <a className="portfolio__link" 
-            href="https://github.com/egorova96/react-mesto-api-full-gha" rel="noreferrer">
+            href="https://github.com/egorova96/react-mesto-api-full-gha" rel="noreferrer" target="_blank">
               Одностраничное приложение
               <img className="portfolio__image" src={toProjectImg} alt="Ссылка на проект" />
             </a>

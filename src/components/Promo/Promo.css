@@ -75,3 +75,12 @@
     object-fit: cover;
   }
 }
+
+@media screen and (max-width: 340px) {
+  .promo__image {
+    padding: 60px 0 40px 0;
+    height: 230px;
+    width: 300px;
+    object-fit: cover;
+}
+}

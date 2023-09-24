@@ -42,7 +42,7 @@
   left: calc(36px - 20px + 2px);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .filter-checkbox {
     font-size: 11px;
   }
