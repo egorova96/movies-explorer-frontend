@@ -110,7 +110,7 @@
       padding-top: 16px;
     }
   
-    .about__description {
+    .about__my-life {
       font-size: 12px;
       line-height: 18px;
       padding-top: 20px;
@@ -122,6 +122,18 @@
   
     .about__avatar {
       width: 240px;
+      height: 307px;
+      margin-left: 10px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .about__container {
+      max-width: 663px;
+    }
+
+    .about__avatar{
+      width: 255px;
       height: 307px;
     }
   }
@@ -145,7 +157,7 @@
   
     .about__information {
       width: 292px;
-      padding-top: 39px;
+      padding-top: 35px;
     }
   
     .about__name {
@@ -173,6 +185,8 @@
     .about__avatar {
       display: block;
       width: 292px;
+      height: 360px;
+      margin-left: 0;
       border-radius: 12px;
     }
   }

@@ -107,13 +107,22 @@
   }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1140px) {
+@media screen and (min-width: 801px) and (max-width: 1150px) {
+.about-project {
+  justify-content: center;
+  width: 80vw;
+}
+
   .about-project__time-title_backend {
     width: 150px;
   }
 
   .about-project__time-title_frontend {
     width: 630px;
+  }
+
+  .about-project__term-container {
+    justify-content: center;
   }
 
   .about-project__term-container_type_right {
@@ -125,10 +134,12 @@
   .about-project {
     max-width: 668px;
     padding: 90px 0 90px;
+    justify-content: center;
   }
 
   .about-project__term-container {
     gap: 30px;
+    justify-content: center;
   }
 
   .about-project__text {
@@ -159,10 +170,15 @@
 }
 
 @media screen and (max-width: 685px) {
+  .about-project {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
   .about-project__time-title_frontend {
-    width: 440px;
+    width: 500px;
   }
+
 }
 
 @media screen and (min-width: 551px) and (max-width: 617px) {
@@ -174,7 +190,7 @@
 
 @media screen and (max-width: 550px) {
   .about-project__time-title_frontend {
-    width: 320px;
+    width: 270px;
   }
 }
 

@@ -175,6 +175,10 @@
   .search__form {
     max-width: 800px;
   }
+
+  .search__checkbox {
+    padding-left: 20px;
+  }
   
 }
 
@@ -223,6 +227,8 @@
     border-radius: 9px;
     background: #2F2F2F;
     min-height: 72px;
+    padding-left: 5px;
+    margin-left: 5px;
   }
 
 
@@ -234,19 +240,25 @@
   }
 
   .search__input {
-    width: 280px;
+    width: 180px;
+    font-size: 14px;
+    padding-left: 5px;
   }
 
   .search__button {
     margin: 0 10px 0 0;
   }
 
-  .search__input-conteiner {
+  .search__input-container {
     padding-top: 12px;
     width: 100%;
   }
 
   .search__icon {
+    display: none;
+  }
+
+  .search__image {
     display: none;
   }
 
@@ -284,9 +296,10 @@
     width: 203px;
     font-size: 14px;
     min-height: 22px;
+    padding-top: 12px;
   }
 
-  .search__input-conteiner {
+  .search__input-container {
     padding-left: 19px;
   }
 

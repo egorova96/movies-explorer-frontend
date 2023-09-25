@@ -228,11 +228,11 @@
 }
 
 @media screen and (max-width: 480px) {
-  .navigate__content {
+  .navigation__content {
     display: none;
   }
 
-  .navigate__burger-menu-open {
+  .navigation__burger-menu-open {
     display: block;
     margin: 0;
     padding: 0;
@@ -242,7 +242,7 @@
     transition: opacity .7s linear;
   }
   
-  .navigate__burger-menu-open:hover {
+  .navigation__burger-menu-open:hover {
     opacity: .8;
     cursor: pointer;
   }
@@ -251,5 +251,12 @@
     width: 320px;
     display: flex;
     justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .navigation__burger-menu-open {
+    width: 40px;
   }
 }

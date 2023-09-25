@@ -9,7 +9,7 @@ function SearchForm() {
       <form className="search__form">
         <div className="search__container">
           <img className="search__image" src={magnifier} alt="Лупа"></img>
-          <div className="search__input-conteiner">
+          <div className="search__input-container">
             <input
               id="input-search"
               className="search__input"

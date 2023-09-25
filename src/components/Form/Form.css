@@ -68,11 +68,11 @@
   color: #FFF;
   padding: 0 0 10px 0;
   border-bottom: 1px solid #424242;
+  border-right: none;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border: none;
   outline: none;
   width: 100%;
 }
@@ -118,7 +118,7 @@
 }
 
 .auth__button {
-  margin: 0 0 16px 0;
+  margin: 0px 0 16px 0;
   padding: 0;
   border-radius: 3px;
   background: #4285F4;
@@ -173,6 +173,10 @@
   .auth {
     padding-top: 232px;
   }
+
+.auth__container_type_login {
+  margin-top: 162px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -207,6 +211,7 @@
   .auth__button {
     font-size: 12px;
     margin-bottom: 14px;
+    margin-top: -2px;
   }
 
   .auth__question {
