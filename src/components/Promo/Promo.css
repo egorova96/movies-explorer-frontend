@@ -50,8 +50,11 @@
 
 @media screen and (min-width: 481px) and (max-width: 700px) {
   .promo__image {
-    max-width: 480px;
-  }
+    padding: 60px 0 40px 0;
+    height: 230px;
+    width: 300px;
+    object-fit: cover;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -68,15 +71,6 @@
     text-align: center;
   }
 
-  .promo__image {
-    padding: 60px 0 40px 0;
-    height: 230px;
-    width: 320px;
-    object-fit: cover;
-  }
-}
-
-@media screen and (max-width: 340px) {
   .promo__image {
     padding: 60px 0 40px 0;
     height: 230px;

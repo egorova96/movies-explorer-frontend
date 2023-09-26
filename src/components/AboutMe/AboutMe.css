@@ -88,7 +88,7 @@
     object-fit: cover;
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1200px) {
     .about {
       max-width: 668px;
       padding: 90px 0 91px;
@@ -126,19 +126,8 @@
       margin-left: 10px;
     }
   }
-
-  @media screen and (max-width: 768px) {
-    .about__container {
-      max-width: 663px;
-    }
-
-    .about__avatar{
-      width: 255px;
-      height: 307px;
-    }
-  }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 650px) {
     .about {
       max-width: 292px;
       padding: 70px 0;
@@ -157,7 +146,7 @@
   
     .about__information {
       width: 292px;
-      padding-top: 35px;
+      padding-top: 39px;
     }
   
     .about__name {

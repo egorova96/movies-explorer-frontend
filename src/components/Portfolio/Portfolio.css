@@ -61,7 +61,7 @@
   padding: 5px 5px 0 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .portfolio {
     max-width: 670px;
     padding-bottom: 90px;
@@ -87,7 +87,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .portfolio {
     max-width: 292px;
     padding-bottom: 70px;

@@ -259,4 +259,8 @@
   .navigation__burger-menu-open {
     width: 40px;
   }
+
+  .burger__overlay{
+    max-height: 100vh;
+  }
 }

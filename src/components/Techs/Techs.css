@@ -82,7 +82,7 @@
   background: #303030;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .techs__container {
     max-width: 668px;
     padding: 91px 0;
@@ -113,6 +113,13 @@
   }
 }
 
+@media screen and (max-width:730px) {
+  .techs__title {
+    padding-left: 10px;
+    max-width: 90%;
+  }
+}
+
 @media screen and (max-width: 665px) {
   .techs__list {
     display: grid;
@@ -123,6 +130,13 @@
   .techs__amount {
     max-width: 450px;
   }
+
+  .techs__text {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: -0.44px;
+    width: 292px;
+}
 }
 
 @media screen and (max-width: 480px) {

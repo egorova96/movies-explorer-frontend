@@ -1,6 +1,12 @@
 import "./Profile.css";
 
+import { useNavigate } from "react-router-dom";
+
 function Profile() {
+  const navigate = useNavigate();
+  const goBack = () => navigate(-1);
+
+
   return (
     <section className="profile">
       <form className="profile__form">
@@ -38,7 +44,7 @@ function Profile() {
           <span className="profile__error" type="text"></span>
           <button className="profile__save-button" type="submit" >Сохранить</button>
           <button className="profile__edit-button" type="button">Редактировать</button>
-          <button className="profile__signout-button" type="button">Выйти из аккаунта</button>
+          <button onClick={goBack} className="profile__signout-button" type="button">Выйти из аккаунта</button>
         </div>
       </form>
     </section>

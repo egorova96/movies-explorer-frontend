@@ -70,15 +70,15 @@
   opacity: .6;
   cursor: pointer;
 }
-
+/*
 @media screen and (max-width: 1035px) {
   .footer {
     max-width: 980px;
     padding-top: 60px;
   }
-}
+}*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .footer {
     padding-top: 55px;
     max-width: 708px;
@@ -86,7 +86,7 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
   .footer {
     max-width: 300px;
   }

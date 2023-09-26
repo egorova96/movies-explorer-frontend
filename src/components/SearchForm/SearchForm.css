@@ -190,7 +190,7 @@
   }
 
   .search__image {
-    padding-top: 20px;
+    padding-top: 25px;
   }
 
   .search__form {
@@ -213,6 +213,8 @@
 
   .search__input {
     width: 359px;
+    padding-top: 22px;
+    padding-left: 11px;
   }
 }
 
