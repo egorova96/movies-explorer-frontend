@@ -179,3 +179,10 @@
       border-radius: 12px;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .about__information {
+      padding-top: 29px;
+    }
+  }
+

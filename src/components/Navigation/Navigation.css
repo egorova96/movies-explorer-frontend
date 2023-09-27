@@ -237,7 +237,6 @@
     margin: 0;
     padding: 0;
     position: absolute;
-    right: 14px;
     top: 15px;
     transition: opacity .7s linear;
   }
@@ -254,8 +253,20 @@
   }
 }
 
+@media screen and (min-width: 470px) and (max-width: 549px) {
+  .navigation__burger-menu-open {
+    right: 98px;
+  }
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 391px) and (max-width: 469px) {
+  .navigation__burger-menu-open {
+    right: 80px;
+  }
+}
+
+
+@media screen and (max-width: 390px) {
   .navigation__burger-menu-open {
     width: 40px;
   }
@@ -263,4 +274,13 @@
   .burger__overlay{
     max-height: 100vh;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .navigation__burger-menu-open {
+    width: 35px;
+    right: 15px;
+    top: 10px
+  }
+
 }

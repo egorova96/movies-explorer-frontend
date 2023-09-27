@@ -183,3 +183,9 @@
     width: 292px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .techs__title {
+    padding-left: 0;
+  }
+}

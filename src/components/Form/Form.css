@@ -179,7 +179,7 @@
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .auth {
     padding-top: 56px;
     padding-bottom: 30px;
