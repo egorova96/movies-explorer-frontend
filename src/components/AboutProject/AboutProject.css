@@ -239,6 +239,7 @@
     line-height: 16px;
     padding-top: 16px;
     font-size: 11px;
+    margin-left: -3px;
   }
 
   .about-project__time {

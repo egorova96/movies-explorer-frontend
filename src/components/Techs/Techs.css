@@ -127,6 +127,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .techs__title {
+    padding-bottom: 28px;
+    font-size: 18px;
+    letter-spacing: -0.72px;
+    border-bottom: 1px solid #000;
+  }
+
   .techs__amount {
     max-width: 450px;
   }

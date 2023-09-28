@@ -67,6 +67,7 @@ function Navigation() {
         src={burgerMenu}
         alt="Меню"
         onClick={handleBurgerMenuClick}
+        onscroll= {false}
       />
 
       {isBurger && (

@@ -121,13 +121,13 @@
     }
   
     .about__avatar {
-      width: 240px;
+      width: 255px;
       height: 307px;
       margin-left: 10px;
     }
   }
   
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 675px) {
     .about {
       max-width: 292px;
       padding: 70px 0;

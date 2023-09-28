@@ -70,13 +70,13 @@
   opacity: .6;
   cursor: pointer;
 }
-/*
+
 @media screen and (max-width: 1035px) {
   .footer {
     max-width: 980px;
     padding-top: 60px;
   }
-}*/
+}
 
 @media screen and (max-width: 1200px) {
   .footer {
@@ -86,7 +86,7 @@
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 675px) {
   .footer {
     max-width: 300px;
   }
