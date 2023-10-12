@@ -1,0 +1,128 @@
+.film-card {
+  max-width: 270px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.film-card__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.film-card__information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 0 13px 0;
+  flex-direction: row;
+}
+
+.film-card__headpiece {
+  display: block;
+  width: 270px;
+  object-fit: contain;
+  height: 151px;
+}
+
+
+.film-card__title {
+  width: 226px;
+  height: 32px;
+  margin: 0;
+  padding: 14px 0 0 0;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.film-card__delete-button {
+  background-color: #202020;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.film-card__delete-button:hover {
+  border-radius: 50px;
+  background: url(../../images/delete-button.svg) center #313131;
+  background-repeat: no-repeat;
+  opacity: .6;
+  transition: opacity .5s linear;
+}
+
+.film-card__like-button {
+  width: 24px;
+  height: 24px;
+  transition: opacity .6s linear;
+  background-color: #202020;
+  margin: 0;
+  padding: 0;
+  background-image: url(../../images/whiteheart.svg);
+  border: none;
+  background-repeat: no-repeat;
+  outline: none;
+}
+
+.film-card__like-button:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+
+.film-card__duration {
+  color: #8B8B8B;
+  margin: 0;
+  width: 100%;
+  padding: 7px 0 0;
+  font-size: 11px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  border-top: 1px solid #424242;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 900px) {
+  .film-card {
+    max-width: 339px;
+  }
+
+  .film-card__headpiece {
+    height: 190px;
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .film-card {
+    max-width: 300px;
+  }
+
+  .film-card__headpiece {
+    width: 300px;
+    height: 168px;
+  }
+
+  .film-card__title {
+    font-size: 12px;
+  }
+
+  .film-card__duration {
+    padding-top: 6px;
+    font-size: 10px;
+  }
+
+}

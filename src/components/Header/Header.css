@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -1px auto;
+    padding: 19px 70px;
+  }
+
+  .header_type_login {
+    padding: 19px 70px;
+    background-color: #073042;
+  }
+
+  .header__logo {
+    max-width: 38px;
+    margin: 0;
+    padding: 0;
+    transition: opacity .7s linear;
+  }
+
+  .header__logo:hover {
+    opacity: .5;
+    cursor: pointer;
+  }
+  
+  .header__link {
+    display: flex;
+  }
+  
+  
+  
+  @media screen and (max-width: 800px) {
+    .header {
+      padding: 17px 30px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header {
+      padding: 18px 15px;
+    }
+  }
