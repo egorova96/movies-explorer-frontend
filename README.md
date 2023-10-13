@@ -11,3 +11,7 @@
 IP 158.160.64.142
 
 https://backend.egorovaas96.nomoreparties.co
+
+Фронтенд дипломного проекта
+
+http://egorovaas96.nomoreparties.co/
